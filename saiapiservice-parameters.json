@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "ApimServiceName": {
+      "value": "saiapiservice"
+    },
+    "LinkedTemplatesBaseUrl": {
+      "value": "https://bysaistorage.blob.core.windows.net/saitest"
+    },
+    "LinkedTemplatesUrlQueryString": {
+      "value": "?sv=2019-02-02&ss=bfqt&srt=sco&sp=rwdlacup&se=2020-04-24T02:23:19Z&st=2020-04-23T18:23:19Z&spr=https&sig=K%2BjQR9rcflHEMQ1w%2Fn7kYV%2B4x0%2FjtZEf8roblZcP2%2Bw%3D"
+    }
+  },
+  "resources": []
+}
